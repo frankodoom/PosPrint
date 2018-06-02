@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace PosPrint.Model
 {
-    class MainStock
+    class PurchaseViewModel
     {
-        
         public Guid ProductID { get; set; }
-       
-        public int QuantityInStock { get; set; }
-        public virtual Product Product { get; set; }
+        public string TransactionType { get; set; }
+        public int Quantity { get; set; }
     }
 }

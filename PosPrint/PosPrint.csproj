@@ -58,6 +58,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\Inventory.cs" />
+    <Compile Include="Model\PurchaseViewModel.cs" />
     <Compile Include="PrintText.cs" />
     <Compile Include="SalesReport.cs">
       <AutoGen>True</AutoGen>
